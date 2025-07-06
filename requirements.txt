@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+databases[sqlite]      # лёгкая асинхронная обёртка для БД
+SQLAlchemy            # ORM для SQL-БД
+python-multipart      # если понадобятся загрузки форм
+python-jose[cryptography]  # для JWT-аутентификации (опционально)
+passlib[bcrypt]           # для хеширования паролей
+pydantic-settings
